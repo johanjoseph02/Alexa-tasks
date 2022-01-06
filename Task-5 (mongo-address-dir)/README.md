@@ -10,7 +10,9 @@ JavaScript application implemented using MongoDB, Express.js and Postman
 ## How to use
 1. Install [Node.js](https://nodejs.org/en/download/)
 2. Navigate to the folder containing *index.js* within a terminal
-3. Add a MongoDB connection string to *index.js*
+3. Use `npm install express`
+4. Use `npm install mongodb`
+5. Add a MongoDB connection string to *index.js*
     - Note: Database Name: AddressDirectory , Collection Name: address-directory
-3. Use `node index` or `node index.js`
-4. Use the HTTP request methods (get, post, put, delete) using [Postman](https://www.postman.com/downloads/) (Port: 3000)
+6. Use `node index` or `node index.js`
+7. Use the HTTP request methods (get, post, put, delete) using [Postman](https://www.postman.com/downloads/) (Port: 3000)
